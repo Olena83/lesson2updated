@@ -9,5 +9,9 @@ public class Tasks2 {
 //if((a%7==0)&&(a%3!=0))
         //{System.out.println (a);}
 
+        //int counter=0;
+        //for (int a=10; a < 100;a++) if ((a%11==0 )&&(counter<25))
+        //{System.out.println (a);counter++;}
+        //for (int b=100; b < 1000;b++) if ((b%47==0 )&&(counter<25))
+        //{System.out.println (b);counter++;}
 
-    }}
