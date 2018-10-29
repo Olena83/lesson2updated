@@ -53,12 +53,59 @@ public class Tasks2 {
        // {if(myArray[i]>max) { max=myArray[i] ;}}
        // {System.out.println(max+min);}
 //задача 4 з масивів
-        //int[] myArray = {3, 8, 1, 10,5};
+        //int[] myArray = {3, 8, 1, 10,5,90,100};
        // int max=myArray[0];
         //int max2 =myArray[0];
         //for (int i = 1; i < myArray.length; i++)
-           // {if (myArray[i]> max){max2=max; max = myArray[i] ;}
+       // {if (myArray[i]> max){max2=max; max = myArray[i] ;}
             //else if (myArray[i] >max2){max2 =myArray[i];}}
-      //  {System.out.println("Число, сума цифр якого є максимальною:" +(max+ max2));}
+       //{System.out.println("Число, сума цифр якого є максимальною:" +(max+ max2));}
 
-    }}
+        //Задача №5: у вас є підготовлений двохвимірний масив даних. найти рядок сума чисел є максимальна
+//            int height = 6;
+//            int width = 5;
+//            int[][] array2 = new int[height][width];
+//            Random random = new Random();
+//            for (int i = 0; i < height; i++)
+//            { for (int j = 0; j < width; j++)
+//            {array2[i][j] = random.nextInt(8) + 2;
+//            System.out.print(array2[i][j] + " ");            }
+//            System.out.println();        }
+//            System.out.println("===");
+//        int[] sums = new int[height];
+//
+//        for (int i = 0; i < height; i++) {for (int j = 0; j < width; j++)
+//             { sums[i] = sums[i] + array2[i][j];} System.out.println( (i+1)+ " рядок сумма : => " + sums[i]);}
+//             System.out.println(" ");
+//        int max =sums[0];
+//        int n=0;
+//        for (int i= 0; i < height; i++)
+//            {  if ( sums[i] > max) { max=sums[i];n=i+1; } }
+//        System.out.println("найбільше число серед сум чисел рядків: => "+ max);
+//        System.out.println(" ");
+//        System.out.println("Номер рядка з максимальною сумою чисел  становить: " + n);
+
+        //Задача №6: у вас є підготовлений двохвимірний масив даних. найти стовчик сума чисел є мінімальна
+       // int height = 4;
+        //int width = 5;
+        //int[][] array2 = new int[height][width];
+       // Random random = new Random();
+       // for (int i = 0; i < height; i++)
+        //{ for (int j = 0; j < width; j++)
+        //{array2[i][j] = random.nextInt(7);
+          //  System.out.print(array2[i][j] + " ");            }
+           // System.out.println();        }
+        //System.out.println("===");
+       //int[] sums = new int[width];
+      // for (int j = 0; j < width; j++) {for (int i = 0; i < height; i++)
+   // { sums[j] = sums[j] + array2[i][j];} System.out.println( (j+1)+ " стовпчик сумма : => " + sums[j]);}
+     // System.out.println(" ");
+       // int min =sums[0];
+        //int n=0;
+        //for (int j= 0; j < width; j++)
+            //{  if ( sums[j]< min) { min=sums[j];n=j; } }
+       // System.out.println("найменше число серед сум чисел стовпців: => "+ min);
+       // System.out.println(" ");
+        //System.out.println("Номер стовпця з мінімальною сумою чисел  становить: " + (n+1));
+
+    //}}
